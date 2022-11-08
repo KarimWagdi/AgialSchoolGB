@@ -1,0 +1,43 @@
+@import "../../style/colors.scss";
+
+#Section {
+    margin: 5rem 0;
+}
+
+.sectionImg {
+    overflow: hidden;
+    max-height: 600px;
+
+    img {
+        background-position: center;
+        width: 100%;
+    }
+}
+
+.sectionArticle {
+    padding: 3rem !important;
+    max-height: 600px;
+    color: $gray;
+    background-color: $primaryColor;
+
+    .title h3 {
+        font-size: 3rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+        color: $secoundryColor;
+    }
+
+    .paragraph{
+        line-height: 1.7rem;
+    }
+
+}
+
+.RightSection {
+    .title h3{
+        color: $primaryColor !important;
+    }
+
+    background-color: $secoundryColor !important;
+
+}

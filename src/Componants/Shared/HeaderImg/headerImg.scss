@@ -1,0 +1,8 @@
+.carousel {
+    overflow: hidden;
+    width: 100vw !important;
+    max-height: 500px !important;
+}
+.carousel-item img{
+    filter: brightness(50%);
+}

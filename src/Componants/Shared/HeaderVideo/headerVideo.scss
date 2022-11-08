@@ -1,0 +1,40 @@
+    /* Carousel styling */
+   @import "../../style/colors.scss";
+   @import "../../style/global.scss";
+   
+   #headerVideo{
+    margin-bottom: 5em;
+    position: relative;
+    .overFlow{
+        z-index: 4;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        article{
+            @include positionCenter;
+            left: 40%;
+            h1{
+                color: $secoundryColor;
+                text-transform: uppercase;
+                font-weight: bolder;
+            }
+            p{
+                color: $gray;
+            }
+            .primaryBtn{
+                @include primaryBtn;
+            }
+        }
+    }
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 90vh;}
+   }
+  
+
+
+   
