@@ -2,6 +2,10 @@ import './App.scss';
 // Navbar Componant
 import NavbarComponant from './Componants/NavbarComponant';
 
+//Teacher component
+import Teacher from  './Componants/Teacher/teacher.js';
+
+
 // Home Componant
 import HomeComponant from './Componants/HomeComponant';
 
@@ -56,7 +60,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <NavbarComponant />
+        {/* <NavbarComponant /> */}
         <Switch>
           {/* Home Routes */}
 
@@ -110,6 +114,8 @@ function App() {
           {/* Contact Us Route */}
           <Route path={"/ContactUs"} exact component={ContactUsComponant} />
 
+        {/* Teacher Route */}
+          <Route path={"/Teacher"} exact component={Teacher} />
 
 
         </Switch>

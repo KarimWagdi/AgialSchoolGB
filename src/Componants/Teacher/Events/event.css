@@ -1,0 +1,13 @@
+Card{
+    margin:5px;
+}
+.Cardimg{
+    height:155px;
+    border:1px solid black;
+    background-color:gray;
+}
+h5{
+    display:inline-block;
+    margin-right:5px;
+    font-weight:bold;
+}

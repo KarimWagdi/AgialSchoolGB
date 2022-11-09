@@ -96,6 +96,8 @@ function NavbarComponant() {
             </li>
             <li>  <Link class="nav-link active" aria-current="page" to="/ContactUs">Contact Us</Link>
             </li>
+            <li>  <Link class="nav-link active" aria-current="page" to="/Teacher">Teacher</Link>
+            </li>
 
           </ul>
 
