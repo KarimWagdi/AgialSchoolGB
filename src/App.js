@@ -3,7 +3,7 @@ import './App.scss';
 import NavbarComponant from './Componants/NavbarComponant';
 
 //Teacher component
-import Teacher from  './Componants/Teacher/teacher.js';
+// import Teacher from  './Componants/Teacher/teacher.js';
 
 
 // Home Componant
@@ -55,6 +55,15 @@ import Admissions from './Componants/Admission/Admissions';
 import Footer from './Componants/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
+import Events from './Componants/Teacher/Events/events.js'
+// import Sidebar from './Componants/Teacher/sidebar/sidebar.js'
+import Peofile from './Componants/Teacher/Profile/profile.js'
+import Lessons from './Componants/Teacher/Lessons/lessons.js'
+import Feedback from './Componants/Teacher/feedbacks/feedback.js'
+import TimeTabel from './Componants/Teacher/timeTabel/tabel.js'
+import Addevent from './Componants/Teacher/Events/AddEvent.js'
+import Report from './Componants/Teacher/timeTabel/report.js'
+import AddLesson from './Componants/Teacher/Lessons/AddLesson.js'
 
 function App() {
   return (
@@ -115,7 +124,16 @@ function App() {
           <Route path={"/ContactUs"} exact component={ContactUsComponant} />
 
         {/* Teacher Route */}
-          <Route path={"/Teacher"} exact component={Teacher} />
+          {/* <Route path={"/Teacher"} exact component={Teacher} /> */}
+          <Route path={"/Events"} exact component={Events} />
+          <Route path={"/Peofile"} exact component={Peofile} />
+          <Route path={"/Lessons"} exact component={Lessons} />
+          <Route path={"/Feedback"} exact component={Feedback} />
+          <Route path={"/TimeTabel"} exact component={TimeTabel} />
+          <Route path={"/Addevent"} exact component={Addevent} />
+          <Route path={"/Report"} exact component={Report} />
+          <Route path={"/AddLesson"} exact component={AddLesson} />
+
 
 
         </Switch>

@@ -2,8 +2,12 @@
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
+import Sidebar from '../sidebar/sidebar.js'
+
 const Feedback = () =>{
     return (
+      <>
+      <Sidebar/>
     <div className="row row-cols-2 row-cols-md-5 my-5 g-4 w-80 m-auto w-50">
         {/* <input type='text' placeholder='Enter Student Name'/> */}
         <InputGroup className="mb-1">
@@ -22,10 +26,10 @@ const Feedback = () =>{
           style={{ height: '100px' }}
         />
       </FloatingLabel>
-      <button className="btn btn-warning btn-center">Send</button>
+      <button className="btn btn-warning btn-center d-grid gap-2 col-6 mx-auto">Send</button>
     </div>
 
-        
+       </> 
     )
 }
 export default Feedback;

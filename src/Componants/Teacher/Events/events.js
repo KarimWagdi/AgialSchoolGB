@@ -1,6 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './event.css'
+import Sidebar from '../sidebar/sidebar.js'
+import {Link,  NavLink } from "react-router-dom";
+
 function Event() {
   return (
     // <div className="container">
@@ -8,8 +11,16 @@ function Event() {
     // </div>
     
      <>
+     <Sidebar/>
      <div className="position-relative m-4"> 
-      <span className="text-center fs-1"> Event List</span><span className="fs-2"><button className='position-absolute top-50 start-50 translate-middle btn btn-sm mb-5 btn-primary'>Add New Event</button></span>
+      <span className="text-center fs-1"> Event List</span>
+      <span className="fs-2">
+        <button className='position-absolute top-50 start-50 translate-middle btn btn-sm mb-5 btn-primary'>
+          <Link style={{color:"white", textDecoration:"none"}} to="/Addevent">
+          Add New Event
+          </Link>
+          </button>
+          </span>
     </div>
        <div className="row row-cols-2 row-cols-md-3 g-4 w-80 m-auto">
         
