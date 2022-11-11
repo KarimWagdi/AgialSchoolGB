@@ -1,0 +1,40 @@
+Container{
+max-width: 100%;
+overflow-x: hidden;
+}
+ 
+.img{
+    width:auto;
+    height:2em;
+}
+
+.nav{
+    padding:0;
+    margin:0;
+    width:95%;
+}
+.lists{
+    width:100%;
+}
+.lists:hover{
+color: white;
+padding:10px;
+border: 1px solid white;
+border-radius:15px;
+
+}
+.logo{
+    width:90%;
+    height:10%;
+    margin:auto;
+}
+.logo img{
+    width:80%;
+    height:100%;
+}
+
+
+
+
+
+

@@ -9,7 +9,7 @@ function Footer() {
     return (
 
         <>
-            <div class="container-fluid p-0">
+            <div class="container-fluid p-0  sticky-bottom">
                 <footer class="bg-dark text-center text-white">
                     <div class="container p-4 pb-0">
                         <section class="mb-4">
