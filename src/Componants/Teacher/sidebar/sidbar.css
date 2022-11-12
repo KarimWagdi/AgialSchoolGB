@@ -1,3 +1,12 @@
+.Navbar{
+    top: 0;
+    right:0;
+    width:0;
+    position:relative;
+    margin:5px;
+    z-index:100;
+}
+
 Container{
 max-width: 100%;
 overflow-x: hidden;
@@ -24,12 +33,12 @@ border-radius:15px;
 
 }
 .logo{
-    width:90%;
-    height:10%;
+    width:80%;
+    height:20%;
     margin:auto;
 }
 .logo img{
-    width:80%;
+    width:60%;
     height:100%;
 }
 

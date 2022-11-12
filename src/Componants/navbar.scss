@@ -2,21 +2,24 @@
 @import "./style/global.scss";
 
  #navBar {
-     position: relative;
+     position: absolute;
+     width:100%;
+     display:block;
+     margin-bottom:15px;
 
      .navContainer {
          z-index: 44;
          position: absolute;
+         display: block;
          top: 0;
          left: 0;
          right: 0;
          display: flex;
          justify-content: space-around;
-
          .navImg {
              img {
                  width: 100px;
-                 margin-left: 1rem;
+                 margin-left: 5rem;
              }
          }
 
@@ -33,7 +36,7 @@
                      margin: 0.3rem 0.5rem;
                      position: relative;
                      border: 2px solid rgba(0, 0, 0, 0);
-                     color: $gray;
+                     color: black;
                      padding: 1rem;
                      cursor: pointer;
 

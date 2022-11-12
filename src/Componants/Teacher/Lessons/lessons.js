@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Vid1 from "../../../Media/headerVideo.mp4"
 import './lesson.css'
 import Sidebar from '../sidebar/sidebar.js'
-import {Link,  NavLink } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 
 function Lessons() {

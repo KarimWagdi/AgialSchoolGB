@@ -2,17 +2,15 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './event.css'
 import Sidebar from '../sidebar/sidebar.js'
-import {Link,  NavLink } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function Event() {
   return (
-    // <div className="container">
-     
-    // </div>
+    
     
      <>
      <Sidebar/>
-     <div className="position-relative m-4"> 
+     <div className="position-relative mt-5"> 
       <span className="text-center fs-1"> Event List</span>
       <span className="fs-2">
         <button className='position-absolute top-50 start-50 translate-middle btn btn-sm mb-5 btn-primary'>
@@ -58,7 +56,6 @@ function Event() {
         </Card.Body>
       </Card>
        </div>
-
       
       </>
   );
