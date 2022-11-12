@@ -1,12 +1,14 @@
 import Table from 'react-bootstrap/Table';
 import './tabel.css'
 import Sidebar from '../sidebar/sidebar.js'
-import {Link,  NavLink } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function TimeTabel() {
   return (
   <>
   <Sidebar/>
+     <div className="position-relative mt-5"> 
+
 <div className="row row-cols-2 row-cols-md-5 my-5 g-4 w-80 m-auto w-50 bg-info p-2 text-dark bg-opacity-10 rounded-5">
 <h2 className='text-center w-100'>Time Tabel</h2>
     <Table table table-hover  bordered   >
@@ -54,6 +56,7 @@ function TimeTabel() {
           </Link>
           </button>
 
+</div>
 </div>
 </>
   );

@@ -1,5 +1,4 @@
-import './sidbar.css'
-// import './sidebar.scss'
+import './sidebar.css'
 import {Link,  NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -10,7 +9,6 @@ import note from '../../../assets/photos/bell-ring.png';
 import quotes from '../../../assets/photos/quotes.png';
 import graduation from '../../../assets/photos/graduation-cap.png';
 import logo from '../../../assets/whitelogo.png'
-// import "./sidebar.scss"
 function Sidebar() {
   return (
     <>

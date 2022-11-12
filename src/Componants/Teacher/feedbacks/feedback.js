@@ -8,6 +8,8 @@ const Feedback = () =>{
     return (
       <>
       <Sidebar/>
+     <div className="position-relative mt-5"> 
+
     <div className="row row-cols-2 row-cols-md-5 my-5 g-4 w-80 m-auto w-50">
         {/* <input type='text' placeholder='Enter Student Name'/> */}
         <InputGroup className="mb-1">
@@ -27,6 +29,7 @@ const Feedback = () =>{
         />
       </FloatingLabel>
       <button className="btn btn-warning btn-center d-grid gap-2 col-6 mx-auto">Send</button>
+    </div>
     </div>
 
        </> 

@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./navbar.scss"
 import logo from "../assets/whitelogo.png"
-import Peofile from './Teacher/Profile/profile.js'
+import studentProfil from './Student/profile/student.js'
 
 function NavbarComponant() {
 
@@ -99,6 +99,8 @@ function NavbarComponant() {
             <li>  <Link class="nav-link active" aria-current="page" to="/ContactUs">Contact Us</Link>
             </li>
             <li>  <Link class="nav-link active" aria-current="page" to="/Peofile">Teacher</Link>
+            </li>
+            <li>  <Link class="nav-link active" aria-current="page" to="/studentProfil">Student</Link>
             </li>
 
           </ul>
